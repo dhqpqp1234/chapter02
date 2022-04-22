@@ -14,8 +14,8 @@ public class PointApp {
 		Coory.setCoorx(10);
 		Coory.setCoory(23);
 		
-		Coorx.drawinfo();
-		Coory.drawinfo();
+		Coorx.draw();
+		Coory.draw();
 
 	}
 }
