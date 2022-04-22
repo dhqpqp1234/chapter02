@@ -4,18 +4,28 @@ public class PointApp {
 
 	public static void main(String[] args) {
 	
-		Point Coorx = new Point();
+		Point p1 = new Point();
 		
-		Coorx.setCoorx(5);
-		Coorx.setCoory(5);
+		p1.setX(5);
+		p1.setY(5);
 		
-		Point Coory = new Point();
+		Point p2 = new Point();
 		
-		Coory.setCoorx(10);
-		Coory.setCoory(23);
+		p2.setX(10);
+		p2.setY(23);
 		
-		Coorx.draw();
-		Coory.draw();
-
+		Point p3 = new Point(10, 20);
+		
+		Point p4 = new Point(100);//x값
+		p4.setY(200);
+		
+		//y값을 먼저 넣고
+		//setter x값을 넣는다
+		Point p5 = new Point(200);//y값
+		
+		p1.draw();
+		p2.draw();
+		p3.draw();
+		p4.draw();
 	}
 }

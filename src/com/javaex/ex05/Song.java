@@ -1,13 +1,16 @@
 package com.javaex.ex05;
 
 public class Song {
+	//필드
 	private String artist;
 	private String title;
 	private String album;
 	private String composer;
 	private int year;
 	private String track;
+	//생성자
 	
+	//메소드 gs
 	public void setTitle(String t) {
 		title = t;
 	}
@@ -56,7 +59,7 @@ public class Song {
 	public String getTrack() {
 		return track;
 	}
-	
+	//메소드 일반
 	public void showinfo() {
 		System.out.println(artist+","+title+" ("+album+", "+year+", "+track+", "+composer+")");
 	}

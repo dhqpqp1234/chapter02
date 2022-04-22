@@ -8,12 +8,12 @@ public class Goods {
 	//생성자
 	
 	//메소드 - gs
-	public void setName(String n) {
-		name = n;
+	public void setName(String name) {
+		this.name = name;
 	}
 	
-	public void setprice(int p) {
-		price = p;
+	public void setprice(int price) {
+		this.price = price;
 	}
 	//
 	public String getName() {
