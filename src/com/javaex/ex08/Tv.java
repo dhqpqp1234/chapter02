@@ -74,8 +74,7 @@ public class Tv {
 	public void power(boolean power) {
 		if(power==true) {
 			this.power = power;
-			this.channel=channel;
-			this.volume=volume;
+			System.out.println("전원이 켜졌습니다.");
 		}else if(power==false  ){			
 			System.out.println("전원이 꺼졌습니다.");
 			this.power=power;	
